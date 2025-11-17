@@ -1,0 +1,15 @@
+--cpu=Cortex-M4.fp
+".\objects\startup_pac_keil.o"
+".\objects\system_pac.o"
+".\objects\pac_driver_adc.o"
+".\objects\pac_driver_can.o"
+".\objects\pac_driver_gpio.o"
+".\objects\pac_driver_socbridge.o"
+".\objects\pac_driver_system.o"
+".\objects\pac_driver_tile_socbridge.o"
+".\objects\pac_driver_timer.o"
+".\objects\pac_driver_uart.o"
+".\objects\main.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\qorvo_m4f_proj.map" -o .\Objects\qorvo_m4f_proj.axf
