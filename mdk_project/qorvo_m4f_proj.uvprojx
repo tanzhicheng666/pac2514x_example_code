@@ -14,16 +14,16 @@
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
-          <Device>PAC55XX</Device>
+          <Device>PAC5523</Device>
           <Vendor>Active-Semi</Vendor>
           <PackID>Active-Semi.PAC55XX.1.1.0</PackID>
           <PackURL>http://www.qorvo.com/extra/keil_pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x8000) IROM(0x00000000,0x20000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
-          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0PAC55XX -FS00 -FL020000 -FP0($$Device:PAC55XX$Flash\PAC55XX.FLM))</FlashDriverDll>
+          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0PAC55XX -FS00 -FL020000 -FP0($$Device:PAC5523$Flash\PAC55XX.FLM))</FlashDriverDll>
           <DeviceId>0</DeviceId>
-          <RegisterFile>$$Device:PAC55XX$Device\Include\PAC55XX_device.h</RegisterFile>
+          <RegisterFile>$$Device:PAC5523$Device\Include\PAC55XX_device.h</RegisterFile>
           <MemoryEnv></MemoryEnv>
           <Cmp></Cmp>
           <Asm></Asm>
@@ -33,7 +33,7 @@
           <SLE66CMisc></SLE66CMisc>
           <SLE66AMisc></SLE66AMisc>
           <SLE66LinkerMisc></SLE66LinkerMisc>
-          <SFDFile>$$Device:PAC55XX$SVD\PAC55XX.svd</SFDFile>
+          <SFDFile>$$Device:PAC5523$SVD\PAC55XX.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
           <BinPath></BinPath>
@@ -52,7 +52,7 @@
           <OutputName>qorvo_m4f_proj</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -134,7 +134,7 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>-1</DriverSelection>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
@@ -451,6 +451,18 @@
         </Group>
         <Group>
           <GroupName>bsp</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\bsp_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\bsp_uart.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>readme</GroupName>
