@@ -1,206 +1,0 @@
-Dependencies for Project 'qorvo_m4f_proj', Target 'pac25140_proj': (DO NOT MODIFY !)
-F (..\sdk\boot_keil\startup_pac_keil.s)(0x63A5952D)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526"--list .\listings\startup_pac_keil.lst --xref -o .\objects\startup_pac_keil.o --depend .\objects\startup_pac_keil.d)
-F (..\sdk\boot_keil\system_pac.c)(0x63A5952D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\system_pac.o --omf_browse .\objects\system_pac.crf --depend .\objects\system_pac.d)
-I (..\sdk\boot_keil\system_pac.h)(0x63A5952D)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-F (..\sdk\boot_keil\system_pac.h)(0x63A5952D)()
-F (..\sdk\driver\pac_driver_adc.c)(0x63A5952D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\pac_driver_adc.o --omf_browse .\objects\pac_driver_adc.crf --depend .\objects\pac_driver_adc.d)
-I (..\sdk\driver\pac_driver_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-I (..\sdk\driver\pac_driver_config.h)(0x63A5952D)
-F (..\sdk\driver\pac_driver_can.c)(0x63A5952D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\pac_driver_can.o --omf_browse .\objects\pac_driver_can.crf --depend .\objects\pac_driver_can.d)
-I (..\sdk\driver\pac_driver_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-I (..\sdk\driver\pac_driver_config.h)(0x63A5952D)
-F (..\sdk\driver\pac_driver_gpio.c)(0x63A5952D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\pac_driver_gpio.o --omf_browse .\objects\pac_driver_gpio.crf --depend .\objects\pac_driver_gpio.d)
-I (..\sdk\driver\pac_driver_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-I (..\sdk\driver\pac_driver_config.h)(0x63A5952D)
-F (..\sdk\driver\pac_driver_socbridge.c)(0x63A5952D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\pac_driver_socbridge.o --omf_browse .\objects\pac_driver_socbridge.crf --depend .\objects\pac_driver_socbridge.d)
-I (..\sdk\driver\pac_driver_socbridge.h)(0x63A5952D)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-I (..\sdk\driver\pac_driver_config.h)(0x63A5952D)
-I (..\sdk\driver\pac_driver_gpio.h)(0x63A5952D)
-F (..\sdk\driver\pac_driver_system.c)(0x680ED7C8)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\pac_driver_system.o --omf_browse .\objects\pac_driver_system.crf --depend .\objects\pac_driver_system.d)
-I (..\sdk\driver\pac_driver_system.h)(0x63A5952D)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-I (..\sdk\driver\pac_driver_config.h)(0x63A5952D)
-F (..\sdk\driver\pac_driver_tile_socbridge.c)(0x63E4FC7B)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\pac_driver_tile_socbridge.o --omf_browse .\objects\pac_driver_tile_socbridge.crf --depend .\objects\pac_driver_tile_socbridge.d)
-I (..\sdk\driver\pac_driver_tile.h)(0x63A5952D)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-I (..\sdk\driver\pac_driver_config.h)(0x63A5952D)
-I (..\sdk\driver\pac_driver_socbridge.h)(0x63A5952D)
-I (..\sdk\driver\pac_driver_gpio.h)(0x63A5952D)
-F (..\sdk\driver\pac_driver_timer.c)(0x63A5952D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\pac_driver_timer.o --omf_browse .\objects\pac_driver_timer.crf --depend .\objects\pac_driver_timer.d)
-I (..\sdk\driver\pac_driver_timer.h)(0x63A5952D)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-I (..\sdk\driver\pac_driver_config.h)(0x63A5952D)
-F (..\sdk\driver\pac_driver_uart.c)(0x63A5952D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\pac_driver_uart.o --omf_browse .\objects\pac_driver_uart.crf --depend .\objects\pac_driver_uart.d)
-I (..\sdk\driver\pac_driver_uart.h)(0x63A5952D)
-I (..\sdk\peripheral\pac.h)(0x63A5952D)
-I (..\sdk\cmsis_core\core_cm4.h)(0x680DED43)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-I (..\sdk\cmsis_core\core_cmInstr.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cmFunc.h)(0x65BB6D1E)
-I (..\sdk\cmsis_core\core_cm4_simd.h)(0x65BB6D1E)
-I (..\sdk\peripheral\pac_adc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_can.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_crc.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_gpio.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_i2c.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_memory.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_rtc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_scc.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_timers.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_gp_timers.h)(0x63A5952D)
-I (..\sdk\peripheral\pac_uart.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_ssp.h)(0x63A5952E)
-I (..\sdk\peripheral\pac_wwdt.h)(0x63A5952E)
-I (..\sdk\driver\pac_driver_config.h)(0x63A5952D)
-F (..\app\main.c)(0x6912A49D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\bsp -I ..\sdk\boot_keil -I ..\sdk\cmsis_core -I ..\sdk\device -I ..\sdk\driver -I ..\sdk\peripheral-I.\RTE\_pac25140_proj-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\PACK\Active-Semi\PAC55XX\1.1.0\Device\Include-IC:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\01_Tim\01_Qorvo\02_professional_software\02_KEIL\director526\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-F (..\readme.txt)(0x691ADCE7)()
