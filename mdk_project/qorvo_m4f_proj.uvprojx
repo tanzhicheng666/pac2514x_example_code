@@ -462,6 +462,26 @@
               <FileType>1</FileType>
               <FilePath>..\bsp\bsp_uart.c</FilePath>
             </File>
+            <File>
+              <FileName>bsp_gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\bsp\bsp_gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_uart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\bsp\bsp_uart.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_sysclk.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\bsp_sysclk.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_sysclk.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\bsp\bsp_sysclk.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

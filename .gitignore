@@ -39,3 +39,5 @@ bms_gui/BmsGui/obj/*
 /bms_gui/.vs/BmsGui/v16/*.suo
 
 *.dn101358
+/mdk_project/EventRecorderStub.scvd
+/mdk_project/JLinkLog.txt
