@@ -482,6 +482,26 @@
               <FileType>5</FileType>
               <FilePath>..\bsp\bsp_sysclk.h</FilePath>
             </File>
+            <File>
+              <FileName>bsp_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\bsp_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_flash.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\bsp\bsp_flash.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\bsp_systick.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\bsp\bsp_systick.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
